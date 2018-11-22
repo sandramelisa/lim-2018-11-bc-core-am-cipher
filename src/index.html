@@ -7,17 +7,20 @@
   </head>
   <body>
     <div id="root"></div>
-    <h1>Bienvenidos a tu encriptador </h1>
+    <h1>Bienvenidos a encriptado</h1>
     <form>
       <div>
-        <button id="bcifrar">CIFRAR</button>
-        <button id="bdescifrar">DESCIFRAR</button><br><br>
+
         <p1>Ingresa tu mensaje</p1><br>
-        <input type="text" name="mensaje plano"/><br><br>
+        <input type="text" id="mensajePlano"/><br><br>
         <p>Ingresa la clave</p>
-        <input type="number" name="clave"/><br><br>
+        <input type="number" id="offset"/><br><br>
+        <button id="bcifrar" type="button">CIFRAR</button>
+        <button id="bdescifrar">DESCIFRAR</button><br><br>
         <p1>Resultado</p1><br>
-        <input type="text" name="mensaje cifrado"><br><br>
+        <input type="text" id="resultadoC"/><br><br>
+
+
         <button id="blimpiar">Limpiar</button>
         <button id="bvolver">Volver</button>
 
