@@ -6,26 +6,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
     <h1>Bienvenidos a encriptado</h1>
     <form>
-      <div>
-
-        <p1>Ingresa tu mensaje</p1><br>
-        <input type="text" id="mensajePlano"/><br><br>
+        <fieldset>
+        <p>Ingresa tu mensaje</p>
+        <input type="text" id="mensajePlano"/>
         <p>Ingresa la clave</p>
-        <input type="number" id="clave"/><br><br>
+        <input type="number" id="clave"/>
         <button id="bcifrar" type="button">CIFRAR</button>
-        <button id="bdescifrar"type="button">DESCIFRAR</button><br><br>
-        <p1>Resultado</p1><br>
-        <input type="text" id="resultadoC"/><br><br>
-
-
+        <button id="bdescifrar"type="button">DESCIFRAR</button>
+        <p>Resultado</p>
+        <input type="text" id="resultadoC"/>
         <button id="blimpiar">Limpiar</button>
-        <button id="bvolver">Volver</button>
-
-      </div>
-
+        </fieldset>
     </form>
 
     <script src="cipher.js"></script>
