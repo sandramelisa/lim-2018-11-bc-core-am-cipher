@@ -2,8 +2,8 @@ body{
 
 
   text-align: center;
-  background-image: url(images/fotomicro.jpg);
-  background-size: cover;
+  background-image: url(images/imag1.jpg);
+  background-size:cover;
 
 }
 
@@ -14,16 +14,21 @@ fieldset {
 
 h1 {
   font-family: 'Noto Sans SC', sans-serif;
-  font-size:200% ;
-  color: blue;
+  font-size:250%;
+  color: Black;
   font-weight:800;
+}
+
+p1{
+  color:white;
+  font-size:140%; 
 }
 
 p{
   font-family: 'Noto Sans SC', sans-serif;
-  font-size:150%;
-  color: blue;
-  font-weight:600
+  font-size:130%;
+  color: Black;
+  font-weight:600;
 
 }
 #mensajePlano, #clave, #resultadoC {
@@ -32,7 +37,6 @@ p{
   margin-right: auto;
   margin-top: 10px;
   padding: 40px;
-  color:gray;
   width: 35%;
   border-radius: 20px;
 
@@ -43,5 +47,5 @@ p{
   margin-bottom:10px;
   padding: 10px 10px;
   border-radius: 10px;
-  background-color: green;
+  background-color: MediumSeaGreen;
 }
