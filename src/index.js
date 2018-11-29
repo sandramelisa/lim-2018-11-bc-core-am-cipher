@@ -1,5 +1,4 @@
 
-
 //DOM llamas a los elementos
 //function()=--->
 
